@@ -1,0 +1,90 @@
+body{
+    background-image: url(../assets/Images/BgImage.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+
+
+.registerCard{
+    max-width: 350px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #F1F1F1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.wavesImg{
+    width: 100%;
+}
+.registerTitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #514747;    
+    text-align: center;
+}
+.registerForm{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+    padding:20px 0px;
+}
+
+input{
+    border:none;
+    width: 75%;
+    background: #EFEFEF;
+    box-shadow: 10px 10px 20px #BEBEBE, -10px -10px 20px #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    outline: none;
+}
+
+[placeholder="Username"],
+[placeholder="Email"],
+[placeholder="Password"],
+[placeholder="Confirm Password"]{
+    font-size: 14.5px;
+    line-height: 23px;
+}
+.registerSubmitBtn,.loginSubmitBtn{
+    width:40%;
+    background: linear-gradient(263.02deg, #AC3EE1 0%, #541CA0 100%);
+    box-shadow: 8px 8px 10px #BEBEBE;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    color: #ffffff;
+    font-size:18px;
+    margin:15px 0;
+    cursor: pointer;
+}
+.inputField-eyeIcon{
+    width: 100%;
+    position: relative;
+    left:12.5%;
+}
+
+.eyeicon-1,.eyeicon-2,.login-eyeicon-1{
+    color: #767676;
+    position: absolute;
+    top: 30%;
+    left: 63%;
+    font-size:23px;
+    cursor: pointer;
+}
+.emailIdDuplex,.message{
+    font-size:15px;
+    color: red;
+    padding:5px;
+}
+
